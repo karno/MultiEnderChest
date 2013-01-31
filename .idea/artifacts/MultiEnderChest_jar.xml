@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MultiEnderChest:jar">
+    <output-path>$PROJECT_DIR$/runtime/beta/plugins</output-path>
+    <root id="archive" name="MultiEnderChest.jar">
+      <element id="module-output" name="MultiEnderChest" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
