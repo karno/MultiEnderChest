@@ -6,13 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aa80750-56f3-4aa4-a6f2-379ade1343ec" name="Default" comment="" />
+    <list default="true" id="9aa80750-56f3-4aa4-a6f2-379ade1343ec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/CompositeListener.java" afterPath="$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/CompositeListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MultiEnderChest.iml" afterPath="$PROJECT_DIR$/MultiEnderChest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="MultiEnderChest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359629989750" ignored="false" />
+    <file path="/Dummy.txt" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360408117084" ignored="false" />
     <file path="/MultiEnderChest.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359530795871" ignored="false" />
-    <file path="/plugin.yml" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359512893001" ignored="false" />
-    <file path="/CompositeListener.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359629225453" ignored="false" />
+    <file path="/plugin.yml" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360408820149" ignored="false" />
+    <file path="/CompositeListener.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360411166981" ignored="false" />
     <file path="/EnderChestWrapper.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359517055187" ignored="false" />
     <file path="/EnderChestInventory.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359528169452" ignored="false" />
     <file path="/EnderChest.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359517582584" ignored="false" />
@@ -24,7 +28,7 @@
     <file path="/StackRepresentation.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359613509418" ignored="false" />
     <file path="/EnchantmentRepresentation.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359605899549" ignored="false" />
     <file path="/ChestContentHolder.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359613593005" ignored="false" />
-    <file path="/a.dummy" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359628138112" ignored="false" />
+    <file path="/a.dummy" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360420189990" ignored="false" />
     <file path="$USER_HOME$/Desktop/craftbukkit-1.4.7-R0.1.src/src/com/google/common/collect/BstNode.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359616065553" ignored="false" />
     <file path="/BstNode.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359616058482" ignored="false" />
     <file path="$USER_HOME$/Desktop/craftbukkit-1.4.7-R0.1.src/src/org/bukkit/material/Pumpkin.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359616126668" ignored="false" />
@@ -37,6 +41,20 @@
     <file path="$USER_HOME$/Desktop/craftbukkit-1.4.7-R0.1.src/src/net/minecraft/server/v1_4_R1/Chunk.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359628629989" ignored="false" />
     <file path="/Chunk.java" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359628628379" ignored="false" />
     <file path="$PROJECT_DIR$/runtime/beta/server.log" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1359629007632" ignored="false" />
+    <file path="$PROJECT_DIR$/../favex/FavEx.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360408965470" ignored="false" />
+    <file path="/FavEx.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360421018861" ignored="false" />
+    <file path="$PROJECT_DIR$/../favex/plugin.yml" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360409501388" ignored="false" />
+    <file path="$PROJECT_DIR$/../favex/src/FavEx.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360409443264" ignored="false" />
+    <file path="$PROJECT_DIR$/../favex/src/Handler.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360409327494" ignored="false" />
+    <file path="$PROJECT_DIR$/../favex/src/com/troidworks/bukkit/favEx/FavEx.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360421026145" ignored="false" />
+    <file path="$PROJECT_DIR$/../favex/src/com/troidworks/bukkit/favEx/CompositeListener.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360420079451" ignored="false" />
+    <file path="/CompositeListener.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360420076202" ignored="false" />
+    <file path="$PROJECT_DIR$/../favex/src/com/troidworks/bukkit/favEx/FavoriteWatcher.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360421038922" ignored="false" />
+    <file path="$PROJECT_DIR$/../favex/src/com/troidworks/bukkit/favEx/package.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360419183599" ignored="false" />
+    <file path="/package.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360419145714" ignored="false" />
+    <file path="/FavoriteWatcher.scala" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360421036561" ignored="false" />
+    <file path="$PROJECT_DIR$/../favex/config.yml" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360418832858" ignored="false" />
+    <file path="/config.yml" changelist="9aa80750-56f3-4aa4-a6f2-379ade1343ec" time="1360418681430" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,91 +112,26 @@
     <favorites_list name="MultiEnderChest" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="ChestContent.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/ChestContent.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="4" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ChestContentHolder.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/ChestContentHolder.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.051664755">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="StackRepresentation.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/stacking/StackRepresentation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="CompositeListener.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/CompositeListener.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="87" column="37" selection-start="2958" selection-end="2958" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#761#775#0" expanded="true" />
-                    <element signature="e#838#856#0" expanded="true" />
-                    <element signature="e#919#936#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EnchantmentRepresentation.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/stacking/EnchantmentRepresentation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.20979021">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#524#560#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="InventoryOpenEvent.class" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/event/inventory/InventoryOpenEvent.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="15" selection-start="706" selection-end="706" vertical-scroll-proportion="-10.2">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MultiEnderChest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/MultiEnderChest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="4" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="CompositeListener.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/CompositeListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="14" selection-start="793" selection-end="794" vertical-scroll-proportion="0.14251782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiEnderChest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/MultiEnderChest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="4" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -207,16 +160,14 @@
         <option value="$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/stacking/StackRepresentation.java" />
         <option value="$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/ChestContent.java" />
         <option value="$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/ChestContentHolder.java" />
-        <option value="$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/CompositeListener.java" />
         <option value="$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/stacking/EnchantmentRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/CompositeListener.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -226,10 +177,7 @@
             <id />
           </State>
           <State>
-            <id>Android Lint</id>
-          </State>
-          <State>
-            <id>Error handling</id>
+            <id>Threading issues</id>
           </State>
         </expanded-state>
       </profile-state>
@@ -263,6 +211,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -304,50 +253,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiEnderChest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiEnderChest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multiEnderChest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stacking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -362,19 +288,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -403,6 +316,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -508,13 +434,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46763393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -523,16 +448,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13166311" sideWeight="0.5323661" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25333333" sideWeight="0.5323661" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -606,29 +532,20 @@
     <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/ChestContent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/CompositeListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="0" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#761#775#0" expanded="true" />
-            <element signature="e#838#856#0" expanded="true" />
-            <element signature="e#919#936#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/event/player/PlayerLoginEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/MultiEnderChest.java">
@@ -640,9 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="93" selection-end="93" vertical-scroll-proportion="0.03456221">
-          <folding />
-        </state>
+        <state line="2" column="11" selection-start="93" selection-end="93" vertical-scroll-proportion="0.03456221" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/entity/HumanEntity.class">
@@ -652,7 +567,29 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/event/player/PlayerLoginEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="384" selection-end="384" vertical-scroll-proportion="0.07202881">
+        <state line="9" column="43" selection-start="384" selection-end="384" vertical-scroll-proportion="0.07202881" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/World.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="115" selection-start="255" selection-end="255" vertical-scroll-proportion="0.13914657" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/block/Block.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="21" selection-start="628" selection-end="628" vertical-scroll-proportion="0.66790354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/stacking/EnchantmentRepresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.15345268">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/event/inventory/InventoryOpenEvent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="15" selection-start="706" selection-end="706" vertical-scroll-proportion="0.3387704">
           <folding />
         </state>
       </provider>
@@ -660,24 +597,20 @@
     <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/stacking/StackRepresentation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/ChestContentHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="35" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.5653207">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/ChestContent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="4" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/event/inventory/InventoryOpenEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="706" selection-end="706" vertical-scroll-proportion="-10.2">
+        <state line="52" column="0" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.5190024">
           <folding />
         </state>
       </provider>
@@ -689,46 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/ChestContentHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.051664755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/World.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="115" selection-start="255" selection-end="255" vertical-scroll-proportion="0.13914657">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/bukkit-1.4.7-R0.2-20130128.060116-9.jar!/org/bukkit/block/Block.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="21" selection-start="628" selection-end="628" vertical-scroll-proportion="0.66790354">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/CompositeListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="37" selection-start="2958" selection-end="2958" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#761#775#0" expanded="true" />
-            <element signature="e#838#856#0" expanded="true" />
-            <element signature="e#919#936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/troidworks/bukkit/multiEnderChest/stacking/EnchantmentRepresentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.20979021">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#524#560#0" expanded="true" />
-          </folding>
+        <state line="27" column="14" selection-start="793" selection-end="794" vertical-scroll-proportion="0.14251782">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +660,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>bukkit-1.4.7-R0.2-20130128.060116-9</last-edited>
+          <last-edited>groovy-2.0.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -792,7 +689,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

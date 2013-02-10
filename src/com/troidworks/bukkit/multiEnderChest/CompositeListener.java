@@ -28,6 +28,7 @@ public class CompositeListener implements Listener {
     SortedMap<String, Location> lastLocations = new TreeMap<String, Location>();
     SortedMap<Byte, Inventory> inventoryCache = new TreeMap<Byte, Inventory>();
 
+    @EventHandler(priority = EventPriority.HIGH)
     public void onPlayerLogout(PlayerQuitEvent e) {
         lastChannels.remove(e.getPlayer().getName());
     }
