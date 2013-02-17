@@ -27,6 +27,11 @@ public class CompositeListener implements Listener {
     SortedMap<String, Byte> lastChannels = new TreeMap<String, Byte>();
     SortedMap<String, Location> lastLocations = new TreeMap<String, Location>();
     SortedMap<Byte, Inventory> inventoryCache = new TreeMap<Byte, Inventory>();
+    private MultiEnderChest owner;
+
+    public CompositeListener(MultiEnderChest plugin) {
+        this.owner = plugin;
+    }
 
     @EventHandler(priority = EventPriority.HIGH)
     public void onPlayerLogout(PlayerQuitEvent e) {
@@ -55,6 +60,15 @@ public class CompositeListener implements Listener {
             return;
         }
 
+        if (!owner.checkPermision(player)) {
+            if (owner.isWarnOnPermissionDenied()) {
+                e.setCancelled(true);
+                player.sendMessage(
+                        ChatColor.RED + "MultiEnderChest: You do not have permission to open this.");
+            }
+            return;
+        }
+
         // avoid to opening chest.
         e.setCancelled(true);
 
@@ -73,13 +87,20 @@ public class CompositeListener implements Listener {
 
         if (inventory == null) {
 
+            String d = "";
+            if (owner.isShareExtendedChests())
+                d = " [SHARED]";
+
             // initialze inventory
             // first argument of createInventory could be null.
-            inventory = Bukkit.createInventory(null, 27, "Ender Chest #" + channel);
+            inventory = Bukkit.createInventory(null, 27, "Ender Chest #" + channel + d);
 
+            String playerName = owner.isShareExtendedChests() ? ChestContentHolder.DefaultChest : player.getName();
             // load contents
             inventory.setContents(ChestContentHolder
-                    .getInstance().getContent(channel).getItems());
+                    .getInstance()
+                    .getContent(playerName, channel)
+                    .getItems());
 
             // store into cache
             inventoryCache.put(channel, inventory);
@@ -106,8 +127,9 @@ public class CompositeListener implements Listener {
         // get channel
         byte channel = lastChannels.get(name);
 
+        String playerName = owner.isShareExtendedChests() ? ChestContentHolder.DefaultChest : e.getPlayer().getName();
         // save inventory contents
-        ChestContentHolder.getInstance().getContent(channel)
+        ChestContentHolder.getInstance().getContent(playerName, channel)
                 .setItems(e.getInventory().getContents());
 
         Location location = lastLocations.get(name);

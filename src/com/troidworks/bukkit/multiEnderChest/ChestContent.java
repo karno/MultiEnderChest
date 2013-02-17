@@ -3,7 +3,7 @@ package com.troidworks.bukkit.multiEnderChest;
 import com.troidworks.bukkit.multiEnderChest.stacking.StackRepresentation;
 import org.bukkit.inventory.ItemStack;
 
-import java.io.*;
+import java.util.ArrayList;
 
 /**
  * User: karno
@@ -12,40 +12,46 @@ import java.io.*;
  * Generate: IntelliJ IDEA
  */
 public class ChestContent {
-    public static ChestContent load(File file) throws IOException {
-        if (!file.exists() && !file.createNewFile()) {
-            throw new RuntimeException("chest file creation failed.");
+    public static ChestContent[] fromRepresentations(StackRepresentation[][] representations) {
+        ArrayList<ChestContent> list = new ArrayList<ChestContent>();
+        for (StackRepresentation[] reprs : representations) {
+            list.add(new ChestContent(reprs));
         }
-        return new ChestContent(file);
+        return list.toArray(new ChestContent[list.size()]);
     }
 
-    private File file;
+    public static StackRepresentation[][] toRepresentations(ChestContent[] contents) {
+        StackRepresentation[][] representations = new StackRepresentation[contents.length][];
+        for (int i = 0; i < contents.length; i++) {
+            representations[i] = contents[i].getRepresentations();
+        }
+        return representations;
+    }
+
+    public static ChestContent[] getEmpties(int channel) {
+        ChestContent[] ret = new ChestContent[channel];
+        for (int i = 0; i < channel; i++) {
+            ret[i] = getEmpty();
+        }
+        return ret;
+    }
+
+    public static ChestContent getEmpty() {
+        return new ChestContent();
+    }
+
+    private ChestContent() {
+        stacks = new ItemStack[0];
+    }
+
+    public ChestContent(StackRepresentation[] r) {
+        stacks = new ItemStack[r.length];
+        for (int i = 0; i < r.length; i++) {
+            stacks[i] = r[i] != null ? r[i].getItemStack() : null;
+        }
+    }
 
     private ItemStack[] stacks;
-
-    private ChestContent(File file) {
-        this.file = file;
-        // load chest contents
-        try {
-            FileInputStream fis = new FileInputStream(file);
-            ObjectInputStream ois = new ObjectInputStream(fis);
-            try {
-                StackRepresentation[] representations = (StackRepresentation[]) ois.readObject();
-                stacks = new ItemStack[representations.length];
-                for (int i = 0; i < representations.length; i++) {
-                    stacks[i] = representations[i] == null ? null :
-                            representations[i].getItemStack();
-                }
-            } finally {
-                ois.close();
-                fis.close();
-            }
-        } catch (Exception ex) {
-            MultiEnderChest.writeLog("exception while reading " + file.getName());
-            ex.printStackTrace();
-            stacks = new ItemStack[0];
-        }
-    }
 
     public ItemStack[] getItems() {
         return this.stacks;
@@ -55,19 +61,7 @@ public class ChestContent {
         this.stacks = stack;
     }
 
-    public void save() {
-        StackRepresentation[] representations = StackRepresentation.fromItemStacks(this.stacks);
-        try {
-            FileOutputStream fos = new FileOutputStream(file);
-            ObjectOutputStream oos = new ObjectOutputStream(fos);
-            try {
-                oos.writeObject(representations);
-            } finally {
-                oos.close();
-                fos.close();
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
+    public StackRepresentation[] getRepresentations() {
+        return StackRepresentation.fromItemStacks(this.stacks);
     }
 }

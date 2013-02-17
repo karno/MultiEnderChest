@@ -1,0 +1,5 @@
+# share ender chest contents among players.
+# if you want extended ender chests behave as default ender chests, set this to false.
+share_contents: true
+# warn on not permitted user accessed extended ender chests.
+warn_on_permission_denied: true

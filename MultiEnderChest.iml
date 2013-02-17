@@ -18,6 +18,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="bukkit-1.4.7-R1.1-20130206.060129-4" level="project" />
   </component>
 </module>
 

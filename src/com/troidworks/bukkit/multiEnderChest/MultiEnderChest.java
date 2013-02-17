@@ -1,5 +1,6 @@
 package com.troidworks.bukkit.multiEnderChest;
 
+import org.bukkit.permissions.Permissible;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
@@ -27,23 +28,36 @@ public final class MultiEnderChest extends JavaPlugin {
     @Override
     public void onDisable() {
         instance = null;
-        this.getLogger().info("Deactivated MultiEnderChest.");
         ChestContentHolder.getInstance().save();
     }
 
     @Override
     public void onEnable() {
         instance = this;
-        this.getLogger().info("Activated MultiEnderChest.");
         preparePlugin();
         hookPlugin();
     }
 
     private void preparePlugin() {
         dataFolder = getDataFolder();
+        this.saveDefaultConfig();
+        // initialize holder
+        ChestContentHolder.getInstance();
     }
 
     private void hookPlugin() {
-        this.getServer().getPluginManager().registerEvents(new CompositeListener(), this);
+        this.getServer().getPluginManager().registerEvents(new CompositeListener(this), this);
+    }
+
+    public boolean checkPermision(Permissible player) {
+        return player.hasPermission("multienderchest.use");
+    }
+
+    public boolean isShareExtendedChests() {
+        return this.getConfig().getBoolean("share_contents");
+    }
+
+    public boolean isWarnOnPermissionDenied() {
+        return this.getConfig().getBoolean("warn_on_permission_denied");
     }
 }
